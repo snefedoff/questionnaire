@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Snacker';
+    font-style:  normal;
+    font-weight: 400;
+    src: url("./fonts/SnackerComic.ttf") format("ttf");
+}
+
+body {
+    background-color: black;
+    background-color: #0c0c0c;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 80%;
+    margin: 0 auto;
+    color:white;
+  }
+
+  .content {
+      margin: 20% auto;
+      padding: 20px 0;
+      width: 100%;
+      background-color:#151515;
+  }
+
+  .question {
+      width: 80%;
+      text-align: center;
+      margin: 0 auto 50px auto;
+      font-weight: 100;
+      font-family: 'Source Code Pro', monospace;
+      font-size: 26px;
+  }
+
+  .answers {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 600px;
+  }
+
+  .answers__answer-button {
+      margin: 20px;
+      width: 200px;
+      height: 80px;
+      font-family: 'Source Code Pro', monospace;
+      font-size: 20px;
+      background-color: #151515;
+      border: thin solid white;
+      border-radius: 10px;
+      color: white;
+      overflow: auto;
+  }
+
+  .answers__answer-button:hover {
+    background-color: white;
+    color: black;
+  }
